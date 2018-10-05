@@ -1,0 +1,166 @@
+body {
+    background-image: url("../images/tiny-squares.png");
+    width: 100%;
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-color: #666;
+    border-width: 2px;
+}
+
+.header-wrap {
+    width: 960px;
+    margin: 0 auto;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.name {
+    width: 215px;
+    padding: 10px 5px 20px 5px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    background: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+nav {
+    width: 710px;
+    padding-top: 35px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+a {
+    color: #777;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-right: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-align: center;
+    font-size: 110%;
+}
+
+.aboutme {
+    /* width is 920px b/c 40px padding on left/right side */
+    width: 920px;
+    padding: 10px 20px 10px 20px;
+    border-style: solid;
+    border-color: #ddd;
+    overflow: auto;
+    background: #fff;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #777;
+}
+
+.facts {
+    position: relative;
+    left: 30px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#profilepic {
+    float: left;
+    padding: 0px 20px 10px 0px;
+}
+
+.portfolio {
+    /* width is 920px b/c 40px padding on left/right side */
+    width: 920px;
+    padding: 10px 20px 10px 20px;
+    border-style: solid;
+    border-color: #ddd;
+    overflow: auto;
+    background: #fff;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #777;
+    
+}
+
+.portfolio-name {
+    width: 200px;
+    height: 30px;
+    background: #4aaaa5;
+    text-align: center;
+    z-index: 5;
+    position: relative;
+    bottom: 50px;
+}
+
+.portfolio-item {
+    padding: 10px 20px 10px 0px;
+    float: left;
+}
+
+.project-link {
+    color: #fff;
+}
+
+.project-link:hover {
+    font-size: 110%;
+    color: #fff;
+}
+
+.contact-form {
+    /* width is 920px b/c 40px padding on left/right side */
+    width: 920px;
+    padding: 10px 20px 10px 20px;
+    border-style: solid;
+    border-color: #ddd;
+    overflow: auto;
+    background: #fff;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #777;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 110%;
+    background-color: #666666;
+    height: 40px;
+    margin-left: -10px;
+    z-index: 15;
+}
+
+.footer-2 {
+    position: fixed;
+    bottom: 40px;
+    width: 110%;
+    background-color: #4aaaa5;
+    height: 5px;
+    margin-left: -10px;
+    z-index: 10;
+}
+
+#footer-text {
+    margin-left: -145px;
+    text-align: center;
+    color: #fff;
+    font-size: 70%;
+}
