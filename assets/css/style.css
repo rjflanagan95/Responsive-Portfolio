@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 110%;
     background-color: #fff;
     margin-top: -10px;
     margin-left: -10px;
@@ -56,7 +56,7 @@ a:hover {
     font-size: 110%;
 }
 
-.aboutme {
+.about-me {
     /* width is 920px b/c 40px padding on left/right side */
     width: 920px;
     padding: 10px 20px 10px 20px;
@@ -164,3 +164,138 @@ footer {
     color: #fff;
     font-size: 70%;
 }
+
+@media screen and (max-width: 980px) {
+    /* nav {
+        width: 980px;
+    }
+
+    .about-me {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        width: 440px;
+    }
+
+    .portfolio {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        width: 440px;
+    }
+    
+    .contact-form {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        width: 440px;
+      } */
+    
+    body {
+        width: 100%;
+    }
+
+    .header-wrap {
+        width: 100%;
+        font-size: 80%;
+    }
+
+    nav {
+        width: 60%;
+    }
+
+    .about-me {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        /* width: 660px; */
+        width: 82%;
+    }
+
+    .portfolio {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        /* width: 660px; */
+        width: 87%;
+    }
+
+    .contact-form {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        /* width: 660px; */
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    .header-wrap {
+        width: 100%;
+        font-size: 80%;
+    }
+
+    nav {
+        width: 60%;
+    }
+
+    .about-me {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        /* width: 660px; */
+        width: 87%;
+    }
+
+    .portfolio {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        /* width: 660px; */
+        width: 87%;
+        overflow: auto;
+    }
+
+    .contact-form {
+        padding: 20px 20px 20px 20px;
+        margin: 20px 20px 20px 20px;
+        /* width: 660px; */
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header-wrap {
+        display: inline-block;
+        width: 110%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    header {
+        width: 112%;
+        /* width: auto; */
+        right: 0px;
+        margin: -10px 0px 0px -10px;
+    }
+
+    .name {
+        width: auto;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    nav {
+        /* width: 110%; */
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 10px;
+        right: 0px;
+    }
+
+    .about-me {
+        display: inline-block;
+        /* width: 100%; */
+        /* width: auto; */
+    }
+
+    .portfolio {
+        display: inline-block;
+        /* width: auto; */
+    }
+}  
