@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    width: 110%;
+    /* width: 120%; */
     background-color: #fff;
     margin-top: -10px;
     margin-left: -10px;
@@ -16,7 +16,7 @@ header {
 }
 
 .header-wrap {
-    width: 960px;
+    width: 920px;
     margin: 0 auto;
     height: 70px;
     background: #fff;
@@ -28,7 +28,6 @@ header {
     width: 215px;
     padding: 10px 5px 20px 5px;
     margin-bottom: 0;
-    margin-left: 10px;
     background: #4aaaa5;
     color: #fff;
     text-align: center;
@@ -165,29 +164,7 @@ footer {
     font-size: 70%;
 }
 
-@media screen and (max-width: 980px) {
-    /* nav {
-        width: 980px;
-    }
-
-    .about-me {
-        padding: 20px 20px 20px 20px;
-        margin: 20px 20px 20px 20px;
-        width: 440px;
-    }
-
-    .portfolio {
-        padding: 20px 20px 20px 20px;
-        margin: 20px 20px 20px 20px;
-        width: 440px;
-    }
-    
-    .contact-form {
-        padding: 20px 20px 20px 20px;
-        margin: 20px 20px 20px 20px;
-        width: 440px;
-      } */
-    
+@media screen and (max-width: 980px) {    
     body {
         width: 100%;
     }
@@ -204,21 +181,18 @@ footer {
     .about-me {
         padding: 20px 20px 20px 20px;
         margin: 20px 20px 20px 20px;
-        /* width: 660px; */
         width: 82%;
     }
 
     .portfolio {
         padding: 20px 20px 20px 20px;
         margin: 20px 20px 20px 20px;
-        /* width: 660px; */
         width: 87%;
     }
 
     .contact-form {
         padding: 20px 20px 20px 20px;
         margin: 20px 20px 20px 20px;
-        /* width: 660px; */
         width: 87%;
     }
 }
@@ -240,14 +214,12 @@ footer {
     .about-me {
         padding: 20px 20px 20px 20px;
         margin: 20px 20px 20px 20px;
-        /* width: 660px; */
         width: 87%;
     }
 
     .portfolio {
         padding: 20px 20px 20px 20px;
         margin: 20px 20px 20px 20px;
-        /* width: 660px; */
         width: 87%;
         overflow: auto;
     }
@@ -255,47 +227,67 @@ footer {
     .contact-form {
         padding: 20px 20px 20px 20px;
         margin: 20px 20px 20px 20px;
-        /* width: 660px; */
         width: 87%;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .header-wrap {
-        display: inline-block;
-        width: 110%;
-        margin: 0px 0px 0px 0px;
+    header {
+        /* display: inline-block; */
+        display: block;
+        width: 100%;
+        margin-right: 0px;
     }
 
-    header {
-        width: 112%;
-        /* width: auto; */
-        right: 0px;
-        margin: -10px 0px 0px -10px;
+    .header-wrap {
+        display: inline-block;
+        /* width: 110%; */
+        margin: 0 auto;
+        width: 100%;
     }
 
     .name {
-        width: auto;
-        margin: 0px 0px 0px 0px;
+        width: 100%;
+        margin: 0 auto;
         text-align: center;
     }
 
     nav {
-        /* width: 110%; */
         margin: 0 auto;
         text-align: center;
         padding-top: 10px;
-        right: 0px;
+        /* right: 0px; */
     }
 
     .about-me {
         display: inline-block;
+        margin: 0 auto;
         /* width: 100%; */
         /* width: auto; */
     }
 
     .portfolio {
         display: inline-block;
+        margin: 0 auto;
         /* width: auto; */
+    }
+
+    .portfolio-item {
+        display: block;
+        float: none;
+    }
+
+    .portfolio-name {
+        width: 100%;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-form {
+        display: inline-block;
+        margin: 0 auto;
     }
 }  
